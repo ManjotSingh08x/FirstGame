@@ -651,6 +651,6 @@ autoplay = "moving up and down"
 position = Vector2(552, 34)
 
 [node name="Enemy2" parent="Enemies" instance=ExtResource("6_trmsp")]
-position = Vector2(217, 18)
+position = Vector2(216, 17)
 
 [connection signal="body_entered" from="Coins/coin6" to="Player" method="_on_coin_6_body_entered"]
